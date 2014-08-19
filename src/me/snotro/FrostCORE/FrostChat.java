@@ -19,7 +19,7 @@ public class FrostChat implements Listener {
             e.setFormat((ChatColor.RED + "" + ChatColor.BOLD + "ADMIN") + ChatColor.WHITE + "%s" + ChatColor.AQUA + ">>" + ChatColor.GRAY + "%s");
         }
 
-        else if (player.hasPermission("Frost.Chat")){
+        else if (player.hasPermission("Frost.Chat.Normal")){
             e.setFormat(ChatColor.GRAY + "%s " + ChatColor.AQUA + " >> " + ChatColor.GRAY + " %s");
         }
     }
